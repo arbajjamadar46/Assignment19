@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fb;
+    color: #4b5563;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    display: inline-block; 
+    background-color: #ffffff;
+    height: 680px;
+    width: 27%;
+    box-shadow: 5px 5px 50px 5px #c2c2c2;
+    border-radius: 10px;
+    margin: 0 10px; 
+    vertical-align: top; 
+}
+
+.card img {
+    height: 210px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card p {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.dates {
+    display: block;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.dates img,
+.time img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.dates span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.time {
+    display: block;
+    text-align: center; 
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.time > div {
+    display: inline-block; 
+    margin: 0 5px;
+}
+
+.tag {
+    display: inline-block; 
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    background-color: #e5e7eb;
+    padding: 0 8px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.tag img {
+    height: 22px;
+    width: 22px;
+}
+
+.teacher {
+    display: block;
+    text-align: left; 
+    margin: 0 30px;
+    padding-bottom: 10px;
+}
+
+.teacher > div {
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+.teacher img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid #418cf7;
+    vertical-align: middle;
+}
+
+.instrctor #instrctor-text {
+    color: #4b5563;
+    font-size: 20px;
+}
+
+.instrctor span {
+    color: black;
+    display: block;
+    font-size: 25px;
+}
+
+.price {
+    border-bottom: 1px solid #e5e7eb;
+    border-top: 1px solid #e5e7eb;
+    padding: 0;
+    margin: 0;
+}
+
+.price h1 {
+    color: #418cf7;
+}
+
+.know-more-btn button {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: #f5f7fb;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
